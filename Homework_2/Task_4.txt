@@ -1,0 +1,16 @@
+Un exemplu de aplicație care folosește parsarea sintactica și/sau de dependență este sentiment analysis. Aceasta metoda este foarte utilizata în multe domenii, cum ar fi
+analiza opiniei consumatorilor, monitorizarea social media și îmbunătățirea experienței utilizatorilor.
+
+Un prim exemplu pentru care parsarea sintactica este utilizata este intelegerea structurii unei fraze. De exemplu, pentru a determina dacă un comentariu despre un produs este
+pozitiv sau negativ, este important să știm care cuvinte sunt descrise de adjective (de ex., "acest telefon este excelent") și care sunt legate de verbul principal.
+Un alt exemplu bun poate fi reprezentat de propoziția: "Acest produs nu este deloc bun." Prin parsarea de dependență, putem determina că adverbul "deloc" este în relație directă
+cu adjectivul "bun", ceea ce inversează polaritatea sentimentului exprimat.
+
+Un alt loc in care ajuta parsarea sintactica este la identificarea structurilor frazelor complexe. În propoziții mai lungi sau complicate, cum ar fi "Desi interfața este intuitivă,
+performanța generală este slabă," un parser sintactic poate identifica legătura dintre cele două propoziții și ajută la interpretarea corectă a sensului global. In acest context,
+parsarea sintactica ne poate oferi si informatii importante in legatura cu cele mai relevante parti ale propozitiei, putant sa fie ignorate, sau luate mult mai putin in
+considerare anumite propozitii din cadrul frazei. In fraza de mai sus de exemplu, prin parsare sintacticase poate separa prima propozitie de cea de a doua, ajungand mult mai usor
+la sensul principal al acesteia, ignorand unele tipuri de exprimari "ocolitoare".
+
+În concluzie, parsarea sintactica și de dependență joacă un rol crucial în aplicațiile de NLP (procesare a limbajului natural), cum ar fi analiza sentimentelor, deoarece oferă
+informații structurale esențiale pentru interpretarea corectă a textului.

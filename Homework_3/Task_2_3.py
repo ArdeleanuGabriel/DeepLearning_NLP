@@ -41,10 +41,10 @@ Numai câteodată, când în timp de noapte vântul zgâlţâia moara părăsit�
 atunci el pipăia prin întuneric, ca să vadă dacă Ana, care dormea ca un copil îmbăiat lângă dânsul, nu cumva s-a
 descoperit prin somn, şi s-o acopere iar.
 
-Cât ţin luncile, ele sunt pline de turme de porci, iară unde sunt multe turme, trebuie să fie şi mulţi păstori. Dar şi
+Veneau câteodată pe la cârciuma Cât ţin luncile, ele sunt pline de turme de porci, iară unde sunt multe turme, trebuie să fie şi mulţi păstori. Dar şi
 porcarii sunt oameni, ba, între mulţi, sunt oameni de tot felul, şi de rând, şi de mâna a doua, ba chiar şi oameni de
 frunte.
-O turmă nu poate să fie prea mare, şi aşa, unde sunt mii şi mii de porci, trebuie să fie sute de turme, şi fiecare turmă
+Veneau câteodată pe la cârciuma Veneau câteodată pe la cârciuma Veneau câteodată pe la cârciuma Veneau câteodată pe la cârciuma Veneau câteodată pe la cârciuma Veneau câteodată pe la cârciuma Veneau câteodată pe la cârciuma O turmă nu poate să fie prea mare, şi aşa, unde sunt mii şi mii de porci, trebuie să fie sute de turme, şi fiecare turmă
 are câte un păstor, şi fiecare păstor e ajutat de către doi-trei băieţi, boitarii, adeseori şi mai mulţi, dacă turma e mare.
 E dar pe lunci un întreg neam de porcari, oameni care s-au trezit în pădure la turma de grăsuni, ai căror părinţi buni şi
 străbuni tot păstori au fost, oameni care au obiceiurile lor şi limba lor păstorească, pe care numai ei o înţeleg. Şi
@@ -56,7 +56,9 @@ răi, de care tremură toată lunca şi care ştie să afle urechea grăsunului 
 Şi dacă lumea zice că locurile de lângă Moara cu noroc sunt rele, n-ai fi avut decât să-l întrebi pe vreunul dintre
 sămădăi, şi el ţi-ar fi putut spune pentru ce nu sunt bune şi cine le primejduieşte; dar sămădăul e, mai presus de toate,
 om tăcut, şi dacă îl întrebi asemenea lucruri, el răspunde: "Nu ştiu, n-am văzut, am atâtea şi atâtea turme în
-răspunderea mea şi nu mă pot strica cu oamenii". El ştie ce ştie, numai pentru nevoile lui.
+răspunderea mea şi nu mă pot strica cu oamenii". 
+                                                                                El ştie ce ştie
+, numai pentru nevoile lui.
 Veneau câteodată pe la cârciuma lui Ghiţă şi porcari, nişte oameni îndeobşte înalţi şi bine făcuţi, cu cămaşa neagră şi
 cu părul strălucitor de untura cea multă şi căzut în plete lungi şi răsucite asupra grumajilor goi; oameni erau şi ei,
 chiar oameni cinstiţi, care mănâncă, beau şi plătesc.
@@ -140,8 +142,8 @@ if __name__ == "__main__":
     smoothed_probs = kneser_ney_smoothing(ngram_counts)#Kneser-Ney smoothing
 
     #TASK 3
-    #for ngram, prob in smoothed_probs.items():
-    #    print(f"{ngram}: {prob:.4f}")
+    for ngram, prob in smoothed_probs.items():
+        print(f"{ngram}: {prob:.4f}")
 
     #TASK 4
     test_sentence = "Eu ştie ce ştiu"

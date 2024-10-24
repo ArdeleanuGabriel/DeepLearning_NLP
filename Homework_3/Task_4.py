@@ -1,6 +1,6 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-# GPT-2 model
+#GPT-2 model
 model_name = 'gpt2'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
@@ -10,7 +10,7 @@ sentence_start = "We wish that you"
 #feed input to model
 input_ids = tokenizer.encode(sentence_start, return_tensors='pt')
 
-num_words_to_generate = 5
+num_words_to_generate = 3
 
 output = model.generate(input_ids, max_length=len(input_ids[0]) + num_words_to_generate, num_return_sequences=1)
 

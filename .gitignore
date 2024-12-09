@@ -5,3 +5,11 @@ Lab_6/glove.6B.300d.txt
 Lab_6/glove.6B.50d.txt
 Lab_6/GoogleNews-vectors-negative300.bin
 News_to_Stock_Market/Sentiment Reader/train-00000-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/processed_1000.parquet
+News_to_Stock_Market/Sentiment Reader/train-00001-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/train-00002-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/train-00003-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/train-00004-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/train-00005-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/train-00006-of-00039.parquet
+News_to_Stock_Market/Sentiment Reader/train-00007-of-00039.parquet
